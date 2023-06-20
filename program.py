@@ -1,5 +1,4 @@
 import math
-import pandas as pd
 import openpyxl
 
 print("Enter the Primary Voltage Vp in volt (V)")
@@ -74,7 +73,7 @@ if closest_rows:
     for row_values in closest_rows:
         print(*row_values, sep=', ')
 
-WH = float(input("Enter the value of WH:"))
+WH = float(input("Enter the value of WH: "))
 
 closest_row = None
 closest_abs_diff = float('inf')
